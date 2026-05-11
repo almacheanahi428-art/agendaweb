@@ -918,4 +918,5 @@ function guardar(){
 
   document.getElementById("correo").value = "";
 
+  console.log("GitHub funcionando");
 }
