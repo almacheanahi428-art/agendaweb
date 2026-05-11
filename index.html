@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda Escolar Pro</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+  <div class="encabezado">
+    <h1>Agenda Escolar Premium</h1>
+    <p>Horario jornada de tarde</p>
+
+    <div class="menu">
+
+      <select id="dia">
+        <option>Lunes</option>
+        <option>Martes</option>
+        <option>Miércoles</option>
+        <option>Jueves</option>
+        <option>Viernes</option>
+      </select>
+
+      <select id="curso">
+        <option>1ro BGU A</option>
+        <option>2do BGU A</option>
+        <option>3ro BGU A</option>
+
+        <option>1ro BGU B</option>
+        <option>2do BGU B</option>
+        <option>3ro BGU B</option>
+
+        <option>1ro Informática A</option>
+        <option>2do Informática A</option>
+        <option>3ro Informática A</option>
+
+        <option>1ro Informática B</option>
+        <option>2do Informática B</option>
+        <option>3ro Informática B</option>
+      </select>
+
+      <button onclick="verHorario()">
+        Ver horario
+      </button>
+
+    </div>
+  </div>
+
+  <div class="calendario">
+
+    <h2>Horario Escolar</h2>
+
+    <div id="horario"></div>
+
+  </div>
+
+  <div class="recordatorios">
+
+    <h2>Recordatorios</h2>
+
+    <div class="formulario">
+
+      <input type="text" id="mensaje" placeholder="Escribe el recordatorio">
+      <input type="email" id="correo" placeholder="Escribe tu correo">
+
+      <select id="tipo">
+        <option value="estudio">📚 Estudio</option>
+        <option value="examen">📝 Examen</option>
+        <option value="tarea">📌 Tarea</option>
+        <option value="evento">📅 Evento</option>
+        <option value="actividad">🎉 Actividad</option>
+        <option value="proyecto">🧪 Proyecto</option>
+      </select>
+
+      <input type="date" id="fecha">
+      <input type="time" id="hora">
+
+      <button onclick="guardar()">
+        Guardar
+      </button>
+
+    </div>
+
+    <ul id="lista"></ul>
+
+  </div>
+
+  <div class="frase">
+    💙 “Cada clase es un paso hacia tu futuro.”
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+<script
+type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+<script>
+
+emailjs.init({
+  publicKey: "OeYBVJMojuXGfj9gN",
+});
+
+</script>
+</body>
+</html>

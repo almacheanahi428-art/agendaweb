@@ -1,0 +1,109 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Segoe UI', sans-serif;
+}
+
+body{
+  background:linear-gradient(to bottom,#dbeafe,#eff6ff);
+  min-height:100vh;
+  padding:20px;
+  color:#1e293b;
+}
+
+.contenedor{
+  max-width:1200px;
+  margin:auto;
+}
+
+.encabezado{
+  background:linear-gradient(to right,#60a5fa,#93c5fd);
+  padding:25px;
+  border-radius:30px;
+  color:white;
+  margin-bottom:25px;
+}
+
+.encabezado h1{
+  font-size:35px;
+}
+
+.menu{
+  display:flex;
+  gap:15px;
+  margin-top:20px;
+  flex-wrap:wrap;
+}
+
+select,input,button{
+  padding:12px;
+  border:none;
+  border-radius:15px;
+  font-size:14px;
+}
+
+select,input{
+  background:#e0f2fe;
+}
+
+button{
+  background:#2563eb;
+  color:white;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.calendario,
+.recordatorios,
+.frase{
+  background:white;
+  border-radius:30px;
+  padding:25px;
+  margin-top:25px;
+}
+
+.tabla-horario{
+  display:grid;
+  grid-template-columns:120px 1fr;
+  gap:15px;
+  margin-top:20px;
+}
+
+.hora{
+  background:#bfdbfe;
+  border-radius:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:bold;
+  height:90px;
+}
+
+.materia{
+  background:#f8fbff;
+  border-left:8px solid #60a5fa;
+  border-radius:20px;
+  padding:18px;
+  height:90px;
+}
+
+li{
+  list-style:none;
+  padding:15px;
+  border-radius:18px;
+  margin-top:12px;
+}
+
+.estudio{background:#d1fae5;}
+.examen{background:#ede9fe;}
+.tarea{background:#ffe4e6;}
+.evento{background:#e0f2fe;}
+.actividad{background:#fef9c3;}
+.proyecto{background:#bbf7d0;}
+
+.frase{
+  text-align:center;
+  font-weight:bold;
+  color:#1e3a8a;
+}
