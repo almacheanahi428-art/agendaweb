@@ -11,7 +11,7 @@ const horarios = {
     ["17:30", "Quimica"]
   ],
 
-  "1ro Informatica A-Lunes": [
+  "1ro Informática A-Lunes": [
     ["12:30", "F.Seguridad - lab1"],
     ["13:10", "F.Seguridad - lab1"],
     ["13:50", "Manejo Incidentes - lab1"],
@@ -34,7 +34,7 @@ const horarios = {
     ["17:30", "Fisica"]
   ],
 
-  "1ro Informatica B-Lunes": [
+  "1ro Informática B-Lunes": [
     ["12:30", "Modulo Practico - aula"],
     ["13:10", "Artistica"],
     ["13:50", "Filosofia"],
@@ -57,7 +57,7 @@ const horarios = {
     ["17:30", "Artistica"]
   ],
 
-  "1ro Informatica A-Martes": [
+  "1ro Informática A-Martes": [
     ["12:30", "Fisica"],
     ["13:10", "Fisica"],
     ["13:50", "Etica Digital - aula"],
@@ -80,7 +80,7 @@ const horarios = {
     ["17:30", "EE.FF"]
   ],
 
-  "1ro Informatica B-Martes": [
+  "1ro Informática B-Martes": [
     ["12:30", "Manejo Incidentes - lab1"],
     ["13:10", "Manejo Incidentes - lab1"],
     ["13:50", "Quimica"],
@@ -103,7 +103,7 @@ const horarios = {
     ["17:30", "Fisica"]
   ],
 
-  "1ro Informatica A-Miercoles": [
+  "1ro Informática A-Miercoles": [
     ["12:30", "Modulo Practico - aula"],
     ["13:10", "Lengua"],
     ["13:50", "Artistica"],
@@ -126,7 +126,7 @@ const horarios = {
     ["17:30", "Matematicas"]
   ],
 
-  "1ro Informatica B-Miercoles": [
+  "1ro Informática B-Miercoles": [
     ["12:30", "P.Computacional - lab2"],
     ["13:10", "P.Computacional - lab2"],
     ["13:50", "Lengua"],
@@ -149,7 +149,7 @@ const horarios = {
     ["17:30", "Matematicas"]
   ],
 
-  "1ro Informatica A-Jueves": [
+  "1ro Informática A-Jueves": [
     ["12:30", "Ingles"],
     ["13:10", "Quimica"],
     ["13:50", "Manejo Incidentes - lab1"],
@@ -172,7 +172,7 @@ const horarios = {
     ["17:30", "Artistica"]
   ],
 
-  "1ro Informatica B-Jueves": [
+  "1ro Informática B-Jueves": [
     ["12:30", "F.Seguridad - lab1"],
     ["13:10", "F.Seguridad - lab1"],
     ["13:50", "Ingles"],
@@ -195,7 +195,7 @@ const horarios = {
     ["17:30", "Quimica"]
   ],
 
-  "1ro Informatica A-Viernes": [
+  "1ro Informática A-Viernes": [
     ["12:30", "Etica Digital - lab1"],
     ["13:10", "F.Tics - lab1"],
     ["13:50", "P.Computacional - lab2"],
@@ -218,7 +218,7 @@ const horarios = {
     ["17:30", "Lengua"]
   ],
 
-  "1ro Informatica B-Viernes": [
+  "1ro Informática B-Viernes": [
     ["12:30", "F.Seguridad - aula"],
     ["13:10", "Manejo Recuperacion - aula"],
     ["13:50", "Manejo Recuperacion - aula"],
@@ -241,7 +241,7 @@ const horarios = {
     ["17:30", "Emprendimiento"]
   ],
 
-  "2do Informatica A-Lunes": [
+  "2do Informática A-Lunes": [
     ["12:30", "Programacion - lab2"],
     ["13:10", "Programacion - lab2"],
     ["13:50", "Lengua"],
@@ -264,7 +264,7 @@ const horarios = {
     ["17:30", "Matematicas"]
   ],
 
-  "2do Informatica B-Lunes": [
+  "2do Informática B-Lunes": [
     ["12:30", "Lengua"],
     ["13:10", "Lengua"],
     ["13:50", "Diseño Web - aula"],
@@ -287,7 +287,7 @@ const horarios = {
     ["17:30", "Tutoria"]
   ],
 
-  "2do Informatica A-Martes": [
+  "2do Informática A-Martes": [
     ["12:30", "Lengua"],
     ["13:10", "Lengua"],
     ["13:50", "Historia"],
@@ -310,7 +310,7 @@ const horarios = {
     ["17:30", "Filosofia"]
   ],
 
-  "2do Informatica B-Martes": [
+  "2do Informática B-Martes": [
     ["12:30", "Programacion - lab2"],
     ["13:10", "Programacion - lab2"],
     ["13:50", "Lengua"],
@@ -333,7 +333,7 @@ const horarios = {
     ["17:30", "Historia"]
   ],
 
-  "2do Informatica A-Miercoles": [
+  "2do Informática A-Miercoles": [
     ["12:30", "Ingles"],
     ["13:10", "Ingles"],
     ["13:50", "EE.FF"],
@@ -356,7 +356,7 @@ const horarios = {
     ["17:30", "Quimica"]
   ],
 
-  "2do Informatica B-Miercoles": [
+  "2do Informática B-Miercoles": [
     ["12:30", "Artistica"],
     ["13:10", "Historia"],
     ["13:50", "Ingles"],
@@ -379,7 +379,7 @@ const horarios = {
     ["17:30", "Lengua"]
   ],
 
-  "2do Informatica A-Jueves": [
+  "2do Informática A-Jueves": [
     ["12:30", "Biologia"],
     ["13:10", "Biologia"],
     ["13:50", "Matematicas"],
@@ -402,7 +402,7 @@ const horarios = {
     ["17:30", "Ciudadania"]
   ],
 
-  "2do Informatica B-Jueves": [
+  "2do Informática B-Jueves": [
     ["12:30", "Matematicas"],
     ["13:10", "Matematicas"],
     ["13:50", "Biologia"],
@@ -425,7 +425,7 @@ const horarios = {
     ["17:30", "Matematicas"]
   ],
 
-  "2do Informatica A-Viernes": [
+  "2do Informática A-Viernes": [
     ["12:30", "Programacion - lab2"],
     ["13:10", "Programacion - lab2"],
     ["13:50", "Diseño Web - lab1"],
@@ -448,7 +448,7 @@ const horarios = {
     ["17:30", "Historia"]
   ],
 
-  "2do Informatica B-Viernes": [
+  "2do Informática B-Viernes": [
     ["12:30", "Fisica"],
     ["13:10", "EE.FF"],
     ["13:50", "Emprendimiento"],
@@ -471,7 +471,7 @@ const horarios = {
     ["17:30", "Emprendimiento"]
   ],
 
-  "3ro Informatica A-Lunes": [
+  "3ro Informática A-Lunes": [
     ["12:30", "EE.FF"],
     ["13:10", "EE.FF"],
     ["13:50", "Sistemas.Red - lab2"],
@@ -494,7 +494,7 @@ const horarios = {
     ["17:30", "Ingles"]
   ],
 
-  "3ro Informatica B-Lunes": [
+  "3ro Informática B-Lunes": [
     ["12:30", "Sistemas.Red - aula"],
     ["13:10", "Diseño Web - aula"],
     ["13:50", "Biologia"],
@@ -517,7 +517,7 @@ const horarios = {
     ["17:30", "Tutoria"]
   ],
 
-  "3ro Informatica A-Martes": [
+  "3ro Informática A-Martes": [
     ["12:30", "Quimica"],
     ["13:10", "Historia"],
     ["13:50", "Programacion - lab2"],
@@ -540,7 +540,7 @@ const horarios = {
     ["17:30", "Historia"]
   ],
 
-  "3ro Informatica B-Martes": [
+  "3ro Informática B-Martes": [
     ["12:30", "Historia"],
     ["13:10", "Quimica"],
     ["13:50", "Diseño Web - lab1"],
@@ -563,7 +563,7 @@ const horarios = {
     ["17:30", "Historia"]
   ],
 
-  "3ro Informatica A-Miercoles": [
+  "3ro Informática A-Miercoles": [
     ["12:30", "Historia"],
     ["13:10", "Biologia"],
     ["13:50", "Biologia"],
@@ -586,7 +586,7 @@ const horarios = {
     ["17:30", "Matematicas"]
   ],
 
-  "3ro Informatica B-Miercoles": [
+  "3ro Informática B-Miercoles": [
     ["12:30", "Soporte - lab1"],
     ["13:10", "Soporte - lab1"],
     ["13:50", "Historia"],
@@ -609,7 +609,7 @@ const horarios = {
     ["17:30", "Lengua"]
   ],
 
-  "3ro Informatica A-Jueves": [
+  "3ro Informática A-Jueves": [
     ["12:30", "Programacion - lab2"],
     ["13:10", "Programacion - lab2"],
     ["13:50", "FOL"],
@@ -632,7 +632,7 @@ const horarios = {
     ["17:30", "P.Mundo"]
   ],
 
-  "3ro Informatica B-Jueves": [
+  "3ro Informática B-Jueves": [
     ["12:30", "Quimica"],
     ["13:10", "Lengua"],
     ["13:50", "Programacion - lab2"],
@@ -655,7 +655,7 @@ const horarios = {
     ["17:30", "Matematicas"]
   ],
 
-  "3ro Informatica A-Viernes": [
+  "3ro Informática A-Viernes": [
     ["12:30", "Emprendimiento"],
     ["13:10", "Emprendimiento"],
     ["13:50", "Sistemas.Red - aula"],
@@ -678,7 +678,7 @@ const horarios = {
     ["17:30", "Tutoria"]
   ],
 
-  "3ro Informatica B-Viernes": [
+  "3ro Informática B-Viernes": [
     ["12:30", "Ingles"],
     ["13:10", "Matematicas"],
     ["13:50", "Matematicas"],
